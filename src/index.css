@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* small helper so we can keep using .container-max like in your original code */
+.container-max {
+@apply max-w-5xl mx-auto;
+}
