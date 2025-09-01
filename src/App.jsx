@@ -25,49 +25,49 @@ const CLASS_OPTIONS = (() => {
 const PRODUCTS = [
   // INTERNET
   // Axis
-  { id: 1, category: 'internet', provider: 'Axis', name: 'Paket AXIS 1.5GB', price: 7000, desc: 'Bronet 1.5GB 1 hari', logo: '/public/assets/logos/axis.png' },
-  { id: 2, category: 'internet', provider: 'Axis', name: 'Paket AXIS 2.5GB', price: 9000, desc: 'Bronet 2.5GB 1 hari', logo: '/public/assets/logos/axis.png' },
-  { id: 3, category: 'internet', provider: 'Axis', name: 'Paket AXIS 2GB', price: 11000, desc: 'Bronet 2GB 3 hari', logo: '/public/assets/logos/axis.png' },
-  { id: 4, category: 'internet', provider: 'Axis', name: 'Paket AXIS 4GB', price: 12000, desc: 'Bronet 4GB 3 hari', logo: '/public/assets/logos/axis.png' },
+  { id: 1, category: 'internet', provider: 'Axis', name: 'Paket AXIS 1.5GB', price: 7000, desc: 'Bronet 1.5GB 1 hari', logo: '/assets/logos/axis.png' },
+  { id: 2, category: 'internet', provider: 'Axis', name: 'Paket AXIS 2.5GB', price: 9000, desc: 'Bronet 2.5GB 1 hari', logo: '/assets/logos/axis.png' },
+  { id: 3, category: 'internet', provider: 'Axis', name: 'Paket AXIS 2GB', price: 11000, desc: 'Bronet 2GB 3 hari', logo: '/assets/logos/axis.png' },
+  { id: 4, category: 'internet', provider: 'Axis', name: 'Paket AXIS 4GB', price: 12000, desc: 'Bronet 4GB 3 hari', logo: '/assets/logos/axis.png' },
   
   // Indosat
-  { id: 5, category: 'internet', provider: 'Indosat', name: 'Paket Indosat 4GB', price: 22000, desc: '3GB 20 hari', logo: '/public/assets/logos/indosat.png' },
-  { id: 6, category: 'internet', provider: 'Indosat', name: 'Paket Indosat 6GB', price: 27000, desc: '6GB 28 hari', logo: '/public/assets/logos/indosat.png' },
+  { id: 5, category: 'internet', provider: 'Indosat', name: 'Paket Indosat 4GB', price: 22000, desc: '3GB 20 hari', logo: '/assets/logos/indosat.png' },
+  { id: 6, category: 'internet', provider: 'Indosat', name: 'Paket Indosat 6GB', price: 27000, desc: '6GB 28 hari', logo: '/assets/logos/indosat.png' },
 
   // Smartfren
-  { id: 7, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1GB', price: 5500, desc: 'Smart 1GB All 3 hari', logo: '/public/assets/logos/smartfren.png' },
-  { id: 8, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 2GB', price: 8500, desc: 'Smart 2GB All 3 hari', logo: '/public/assets/logos/smartfren.png' },
-  { id: 9, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1GB (7 hari)', price: 11000, desc: 'Smart 1GB All 7 hari', logo: '/public/assets/logos/smartfren.png' },
-  { id: 10, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1.5GB', price: 12000, desc: 'Smart 1.5GB All 7 hari', logo: '/public/assets/logos/smartfren.png' },
-  { id: 11, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 3GB', price: 13000, desc: 'Smart 3GB All 5 hari', logo: '/public/assets/logos/smartfren.png' },
-  { id: 12, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 4GB', price: 18000, desc: 'Smart 4GB + Unli App 14 hari', logo: '/public/assets/logos/smartfren.png' },
+  { id: 7, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1GB', price: 5500, desc: 'Smart 1GB All 3 hari', logo: '/assets/logos/smartfren.png' },
+  { id: 8, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 2GB', price: 8500, desc: 'Smart 2GB All 3 hari', logo: '/assets/logos/smartfren.png' },
+  { id: 9, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1GB (7 hari)', price: 11000, desc: 'Smart 1GB All 7 hari', logo: '/assets/logos/smartfren.png' },
+  { id: 10, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 1.5GB', price: 12000, desc: 'Smart 1.5GB All 7 hari', logo: '/assets/logos/smartfren.png' },
+  { id: 11, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 3GB', price: 13000, desc: 'Smart 3GB All 5 hari', logo: '/assets/logos/smartfren.png' },
+  { id: 12, category: 'internet', provider: 'Smartfren', name: 'Paket Smartfren 4GB', price: 18000, desc: 'Smart 4GB + Unli App 14 hari', logo: '/assets/logos/smartfren.png' },
 
   // By.U
-  { id: 13, category: 'internet', provider: 'ByU', name: 'Paket ByU 3GB', price: 10500, desc: 'By.U 3GB All 7 hari', logo: '/public/assets/logos/ByU.png' },
-  { id: 14, category: 'internet', provider: 'ByU', name: 'Paket ByU 2.5GB', price: 11000, desc: 'By.U 2.5GB All 5 hari', logo: '/public/assets/logos/ByU.png' },
-  { id: 15, category: 'internet', provider: 'ByU', name: 'Paket ByU 3GB', price: 12000, desc: 'By.U 3GB All 14 hari', logo: '/public/assets/logos/ByU.png' },
-  { id: 16, category: 'internet', provider: 'ByU', name: 'Paket ByU 7GB', price: 17000, desc: 'By.U 7GB All 30 hari', logo: '/public/assets/logos/ByU.png' },
-  { id: 17, category: 'internet', provider: 'ByU', name: 'Paket ByU 4GB', price: 17500, desc: 'By.U 4GB All 30 hari', logo: '/public/assets/logos/ByU.png' },
-  { id: 18, category: 'internet', provider: 'ByU', name: 'Paket ByU 6GB', price: 18000, desc: 'By.U 6GB All 30 hari', logo: '/public/assets/logos/ByU.png' },
+  { id: 13, category: 'internet', provider: 'ByU', name: 'Paket ByU 3GB', price: 10500, desc: 'By.U 3GB All 7 hari', logo: '/assets/logos/byU.png' },
+  { id: 14, category: 'internet', provider: 'ByU', name: 'Paket ByU 2.5GB', price: 11000, desc: 'By.U 2.5GB All 5 hari', logo: '/assets/logos/byU.png' },
+  { id: 15, category: 'internet', provider: 'ByU', name: 'Paket ByU 3GB', price: 12000, desc: 'By.U 3GB All 14 hari', logo: '/assets/logos/byU.png' },
+  { id: 16, category: 'internet', provider: 'ByU', name: 'Paket ByU 7GB', price: 17000, desc: 'By.U 7GB All 30 hari', logo: '/assets/logos/byU.png' },
+  { id: 17, category: 'internet', provider: 'ByU', name: 'Paket ByU 4GB', price: 17500, desc: 'By.U 4GB All 30 hari', logo: '/assets/logos/byU.png' },
+  { id: 18, category: 'internet', provider: 'ByU', name: 'Paket ByU 6GB', price: 18000, desc: 'By.U 6GB All 30 hari', logo: '/assets/logos/byU.png' },
 
   // GAME
   // Mobile Legend
-  { id: 101, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 3', price: 2000, desc: '3 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 102, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 5', price: 2500, desc: '5 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 103, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 12', price: 4000, desc: '12 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 104, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 19', price: 6500, desc: '19 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 105, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 28', price: 8500, desc: '28 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 106, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 36', price: 10500, desc: '36 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 107, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 56', price: 15500, desc: '56 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 108, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 100', price: 27000, desc: '100 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
-  { id: 109, category: 'game', provider: 'MOBILE LEGENDS', name: 'Weekly Diamond', price: 28000, desc: '220 Diamonds', logo: '/public/assets/logos/mobile-legends.png' },
+  { id: 101, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 3', price: 2000, desc: '3 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 102, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 5', price: 2500, desc: '5 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 103, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 12', price: 4000, desc: '12 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 104, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 19', price: 6500, desc: '19 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 105, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 28', price: 8500, desc: '28 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 106, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 36', price: 10500, desc: '36 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 107, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 56', price: 15500, desc: '56 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 108, category: 'game', provider: 'MOBILE LEGENDS', name: 'Diamond 100', price: 27000, desc: '100 Diamonds', logo: '/assets/logos/mobile-legends.png' },
+  { id: 109, category: 'game', provider: 'MOBILE LEGENDS', name: 'Weekly Diamond', price: 28000, desc: '220 Diamonds', logo: '/assets/logos/mobile-legends.png' },
 
   // Free Fire
-  { id: 201, category: 'game', provider: 'FREE FIRE', name: 'Diamond 5', price: 1000, desc: '5 Diamonds', logo: '/public/assets/logos/free-fire.png' },
-  { id: 202, category: 'game', provider: 'FREE FIRE', name: 'Diamond 12', price: 2500, desc: '12 Diamonds', logo: '/public/assets/logos/free-fire.png' },
-  { id: 203, category: 'game', provider: 'FREE FIRE', name: 'Diamond 50', price: 7000, desc: '50 Diamonds', logo: '/public/assets/logos/free-fire.png' },
-  { id: 204, category: 'game', provider: 'FREE FIRE', name: 'Diamond 70', price: 10000, desc: '70 Diamonds', logo: '/public/assets/logos/free-fire.png' },
-  { id: 205, category: 'game', provider: 'FREE FIRE', name: 'Diamond 100', price: 13500, desc: '100 Diamonds', logo: '/public/assets/logos/free-fire.png' },
+  { id: 201, category: 'game', provider: 'FREE FIRE', name: 'Diamond 5', price: 1000, desc: '5 Diamonds', logo: '/assets/logos/free-fire.png' },
+  { id: 202, category: 'game', provider: 'FREE FIRE', name: 'Diamond 12', price: 2500, desc: '12 Diamonds', logo: '/assets/logos/free-fire.png' },
+  { id: 203, category: 'game', provider: 'FREE FIRE', name: 'Diamond 50', price: 7000, desc: '50 Diamonds', logo: '/assets/logos/free-fire.png' },
+  { id: 204, category: 'game', provider: 'FREE FIRE', name: 'Diamond 70', price: 10000, desc: '70 Diamonds', logo: '/assets/logos/free-fire.png' },
+  { id: 205, category: 'game', provider: 'FREE FIRE', name: 'Diamond 100', price: 13500, desc: '100 Diamonds', logo: '/assets/logos/free-fire.png' },
 ];
 
 /* icons */
@@ -548,7 +548,7 @@ function HeroBanner({ isMobile }) {
             <>
               <LoaderAnimation size={180} />
               <div className="w-full max-w-sm mt-2">
-                <img src="/public/assets/carousel/featured2.jpg" alt="promo" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                <img src="/assets/carousel/featured2.jpg" alt="promo" className="w-full h-auto object-contain rounded-lg shadow-lg" />
               </div>
             </>
           )}
@@ -854,9 +854,9 @@ export default function App() {
         <section id="bukti" className="container-max mx-auto px-4 py-6">
           <h2 className="text-2xl font-bold mb-4" data-aos="fade-left">Bukti Pembayaran</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="rounded overflow-hidden shadow" data-aos="zoom-in"><img src="/public/assets/bukti1.jpg" alt="bukti" /></div>
-            <div className="rounded overflow-hidden shadow" data-aos="zoom-in" data-aos-delay="100"><img src="/public/assets/bukti2.jpg" alt="bukti" /></div>
-            <div className="rounded overflow-hidden shadow" data-aos="zoom-in" data-aos-delay="200"><img src="/public/assets/bukti3.jpg" alt="bukti" /></div>
+            <div className="rounded overflow-hidden shadow" data-aos="zoom-in"><img src="/assets/bukti1.jpg" alt="bukti" /></div>
+            <div className="rounded overflow-hidden shadow" data-aos="zoom-in" data-aos-delay="100"><img src="/assets/bukti2.jpg" alt="bukti" /></div>
+            <div className="rounded overflow-hidden shadow" data-aos="zoom-in" data-aos-delay="200"><img src="/assets/bukti3.jpg" alt="bukti" /></div>
           </div>
         </section>
 
